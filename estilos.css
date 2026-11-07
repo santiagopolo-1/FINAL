@@ -1,0 +1,135 @@
+:root {
+    --color-bg: #F3F0E9;
+    --color-text: #171717;
+    --color-link: #8C2525;
+    --font-family: Arial, sans-serif;
+    --width-content: 1200px;
+}
+
+body {
+    background-color: #F3F0E9;
+    color: #171717;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-family: Times New Roman;
+}
+
+.contenedor-portada {
+    position: relative;
+    margin-left: 20%;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: #171717;
+}
+
+.informacion {
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    color: white;
+    margin-right: 40px;
+}
+
+.imagenes-portada {
+position: relative;
+    width: 300px;
+    height: 400px;
+    flex-shrink: 0;
+}
+.portada,
+.portada-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+.portada-hover {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.contenedor-portada:hover .portada-hover {
+    opacity: 1;
+}
+
+h1, h3 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    letter-spacing: -2px;
+    font-size: 4em;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-size: 2em;
+    color: white;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.generador-cabecerabutton {
+ margin-top: 15px;
+    background-color: #171717;
+    color: white;
+    border: 1px solid #171717;
+    border-radius: 0;
+    padding: 15px 30px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #8C2525;
+    color:#171717;
+}
+
+.generador-album {
+    width: 850px;
+    max-width: 100%;
+    margin: 60px auto;
+    padding: 35px;
+    border: 1px solid #171717;
+    box-sizing: border-box;
+}
+.generador-cabecera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #171717;
+    padding-bottom: 30px;
+}
+
+.numero-generador {
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+.generador-cabecera h3 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    margin: 15px 0;
+}
+.generando {
+    color: #8C2525;
+    font-style: italic;
+}
