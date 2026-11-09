@@ -62,7 +62,7 @@ position: relative;
     opacity: 1;
 }
 
-h1, h3 {
+h1 {
     font-family: Georgia, serif;
     font-weight: normal;
     letter-spacing: -2px;
@@ -78,58 +78,52 @@ h2 {
     font-size: 2em;
     color: white;
 }
+
+h3 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-size: 1.5em;
+    color: #171717;
+}
+
 img {
     max-width: 100%;
     height: auto;
 }
 
-.generador-cabecerabutton {
- margin-top: 15px;
-    background-color: #171717;
-    color: white;
-    border: 1px solid #171717;
-    border-radius: 0;
-    padding: 15px 30px;
-    font-size: 11px;
-    letter-spacing: 2px;
-    cursor: pointer;
-    transition: 0.3s;
+#albumRandom {
+  background-color: #171717;
+  color: white;
+  border: 1px solid #171717;
+  border-radius: 0;
+  padding: 14px 28px;
+  cursor: pointer;
+  font-size: 12px;
+  letter-spacing: 2px;
 }
 
-button:hover {
-    background-color: #8C2525;
-    color:#171717;
+#albumRandom:hover {
+  background-color: #F3F0E9;
+  color: #171717;
 }
 
-.generador-album {
-    width: 850px;
-    max-width: 100%;
-    margin: 60px auto;
-    padding: 35px;
-    border: 1px solid #171717;
-    box-sizing: border-box;
-}
-.generador-cabecera {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border-bottom: 1px solid #171717;
-    padding-bottom: 30px;
+#albumRandom:disabled {
+  opacity: 0.5;
+  cursor: wait;
 }
 
-.numero-generador {
-    font-size: 11px;
-    letter-spacing: 2px;
+#contenedorAlbumes {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
-.generador-cabecera h3 {
-    font-family: Georgia, serif;
-    font-size: 32px;
-    font-weight: normal;
-    letter-spacing: -1px;
-    margin: 15px 0;
-}
-.generando {
-    color: #8C2525;
-    font-style: italic;
+
+#album {
+  display: block;
+  width: 300px;
+  height: 300px;
+  max-width: 100%;
+  object-fit: cover;
+  border: 1px solid #171717;
 }
