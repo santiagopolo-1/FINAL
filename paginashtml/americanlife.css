@@ -1,3 +1,81 @@
 body {
-    background-image: "./img/fondoal.jpg";
+    background-color: rgb(209, 45, 45);
+    background-image: url("../img/fondoal.jpg");
+    
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-family: Times New Roman;
+}
+
+.contenedor-portada {
+    position: relative;
+    margin-left: 20%;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: #000000;
+}
+
+.informacion {
+    flex: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    color: white;
+    margin-right: 40px;
+}
+
+.imagenes-portada {
+position: relative;
+    width: 300px;
+    height: 400px;
+    flex-shrink: 0;
+}
+.portada {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+h1 {
+    font-family:Impact;
+    margin-left: 40%;
+}
+
+h2 {
+    font-family: Script MT Bold, cursive;
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-size: 2em;
+    color: white;
+}
+
+h3 {
+    font-family: Script MT Bold, cursive;
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-size: 1.5em;
+    color: #000000;
+    margin-left: 40%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.contenedor-sencillos {
+    position: relative;
+    margin-left: 20%;
+    margin-top: 25%;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background-color: #000000;
 }
