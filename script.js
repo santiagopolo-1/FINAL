@@ -2,77 +2,77 @@ const albums = [
   {
     name: "Madonna",
     image: "./img/debut.png",
-    page: "./madonna.html"
+    page: "./paginashtml/debut.html"
   },
   {
     name: "Like a Virgin",
     image: "./img/likeavirgin.png",
-    page: "./like-a-virgin.html"
+    page: "./paginashtml/likeavirgin.html"
   },
   {
     name: "True Blue",
     image: "./img/trueblue.png",
-    page: "./true-blue.html"
+    page: "./paginashtml/trueblue.html"
   },
   {
     name: "Like a Prayer",
     image: "./img/likeaprayer.png",
-    page: "./like-a-prayer.html"
+    page: "./paginashtml/likeaprayer.html"
   },
   {
     name: "Erotica",
     image: "./img/erotica.png",
-    page: "./erotica.html"
+    page: "./paginashtml/erotica.html"
   },
   {
     name: "Bedtime Stories",
     image: "./img/bedtimestories.png",
-    page: "./bedtime-stories.html"
+    page: "./paginashtml/bedtimestories.html"
   },
   {
     name: "Ray of Light",
     image: "./img/rayoflight.png",
-    page: "./ray-of-light.html"
+    page: "./paginashtml/rayoflight.html"
   },
   {
     name: "Music",
     image: "./img/music.png",
-    page: "./music.html"
+    page: "./paginashtml/music.html"
   },
   {
     name: "American Life",
     image: "./img/americanlife.png",
-    page: "./american-life.html"
+    page: "./paginashtml/americanlife.html"
   },
   {
     name: "Confessions on a Dance Floor",
     image: "./img/confessions.png",
-    page: "./confessions.html"
+    page: "./paginashtml/confessions.html"
   },
   {
     name: "Hard Candy",
     image: "./img/hardcandy.png",
-    page: "./hard-candy.html"
+    page: "./paginashtml/hardcandy.html"
   },
   {
     name: "MDNA",
     image: "./img/mdna.webp",
-    page: "./mdna.html"
+    page: "./paginashtml/mdna.html"
   },
   {
     name: "Rebel Heart",
     image: "./img/rebelheart.png",
-    page: "./rebel-heart.html"
+    page: "./paginashtml/rebelheart.html"
   },
   {
     name: "Madame X",
     image: "./img/madame-x.png",
-    page: "./madame-x.html"
+    page: "./paginashtml/madamex.html"
   },
   {
     name: "CONFESSIONS II",
     image: "./img/confessionsii.png",
-    page: "./confessions-ii.html"
+    page: "./paginashtml/confessionsii.html"
   }
 ];
 
