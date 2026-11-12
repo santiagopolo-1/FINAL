@@ -10,6 +10,14 @@ body {
     background-attachment: fixed;
 }
 
+.logo {
+    display: block;
+    margin: 20px auto;
+    width: 350px;
+    height: auto;
+    margin-left: 35%;
+}
+
 p {
     font-size: 1.2em;
     line-height: 1.6;
@@ -34,7 +42,7 @@ h3 {
     font-family: Impact, sans-serif;
     font-weight: normal;
     letter-spacing: -1px;
-    font-size: 1.5em;
+    font-size: 2em;
     color: #ffffff;
     text-align: center;
 }
@@ -96,47 +104,55 @@ h3 {
 }
 
 .contenedor-sencillos {
-    position: relative;
-
-    margin: 80px auto;
     width: 850px;
     max-width: 90%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-
+    margin: 100px auto;
     padding: 30px;
-    background-color: #000000;
-
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.contenedor-sencillos:hover {
-    transform: translateY(-5px);
-    box-shadow: 8px 8px 0px #640101;
-}
-.imagenes-contenedor {
-    display: grid;
-    gap: 20px;
-    width: 200px;
-    height: 100px;
+    background-color: black;
     text-align: center;
 }
-.imagenes-contenedor img {
-    width: 200px;
-    height: 100px;
+
+.imagenes-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.tarjeta-sencillo {
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta-sencillo img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta-sencillo:hover {
+    transform: translateY(-5px);
+}
+
+.tarjeta-sencillo:hover img {
+    transform: scale(1.04);
+    box-shadow: 0 8px 20px rgba(255,255,255,0.3);
+}
+
+.tarjeta-sencillo p {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 15px;
 }
 .contenedor-momentos {
     position: relative;
-
+    padding: 20px;
     margin: 80px auto;
     width: 850px;
     max-width: 90%;
-
-    padding: 30px;
     background-color: #000000;
-
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .contenedor-momentos:hover {
