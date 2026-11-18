@@ -66,7 +66,7 @@ const albums = [
   },
   {
     name: "Madame X",
-    image: "./img/madame-x.png",
+    image: "./img/madamex.png",
     page: "./paginashtml/madamex.html"
   },
   {
