@@ -153,7 +153,7 @@ h3 {
 }
 .contenedor-momentos:hover {
     transform: translateY(-5px);
-    box-shadow: 8px 8px 0px #ffffff;
+    box-shadow: 8px 8px 0px #0e1885;
 }
 .contenedor-momentos img {
     display: block;
