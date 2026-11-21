@@ -60,7 +60,7 @@ h3 {
 }
 .contenedor-portada:hover {
     transform: translateY(-5px);
-    box-shadow: 8px 8px 0px #640101;
+    box-shadow: 8px 8px 0px #fff280;
 }
 .imagenes-portada {
     position: relative;
@@ -153,7 +153,7 @@ h3 {
 }
 .contenedor-momentos:hover {
     transform: translateY(-5px);
-    box-shadow: 8px 8px 0px #640101;
+    box-shadow: 8px 8px 0px #fff280;
 }
 .contenedor-momentos img {
     display: block;
