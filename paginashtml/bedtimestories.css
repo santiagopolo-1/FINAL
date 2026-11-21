@@ -107,7 +107,10 @@ h3 {
     background-color: #3dafc9;
     text-align: center;
 }
-
+.contenedor-sencillos:hover {
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 0px #fff280;
+}
 .imagenes-contenedor {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
