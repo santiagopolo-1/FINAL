@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/fondomdna.jpg");
+    background-image: url("../img/fondomusic.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -18,28 +18,28 @@ p {
     font-size: 1.2em;
     line-height: 1.6;
     font-family: "Times New Roman", serif;
-    color: #00fbff;
+    color: #92a4ff;
 }
 
 h1 {
-    font-family: "Bungee", sans-serif;
+    font-family: "Rye", serif;
     margin: 40px auto;
     text-align: center;
-    color: #00fbff;
+    color: #ffdf4f;
 }
 h2 {
-    font-family: "Bungee", sans-serif;
+    font-family: "Rye", serif;
     font-weight: normal;
     letter-spacing: 1px;
     font-size: 2em;
-    color: #00fbff;
+    color: #ffdf4f;
 }
 h3 {
-    font-family: "Bungee", sans-serif;
+    font-family: "Rye", serif;
     font-weight: normal;
     letter-spacing: 1px;
     font-size: 2em;
-    color: #00fbff;
+    color: #ffdf4f;
     text-align: center;
 }
 
@@ -54,13 +54,13 @@ h3 {
     gap: 50px;
 
     padding: 25px;
-    background-color: #f200ff;
+    background-color: #001862;
 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .contenedor-portada:hover {
     transform: translateY(-5px);
-    box-shadow: 8px 8px 0px #ff0000;
+    box-shadow: 8px 8px 0px #0088ff;
 }
 .imagenes-portada {
     position: relative;
@@ -104,12 +104,12 @@ h3 {
     max-width: 90%;
     margin: 100px auto;
     padding: 30px;
-    background-color: #f200ff;
+    background-color: #001862;
     text-align: center;
 }
 .contenedor-sencillos:hover {
     transform: translateY(-5px);
-    box-shadow: 8px 8px 0px #ff0000;
+    box-shadow: 8px 8px 0px #0088ff;
 }
 .imagenes-contenedor {
     display: grid;
@@ -151,12 +151,12 @@ h3 {
     margin: 80px auto;
     width: 850px;
     max-width: 90%;
-    background-color: #f200ff;
+    background-color: #001862;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .contenedor-momentos:hover {
     transform: translateY(-5px);
-    box-shadow: 8px 8px 0px #ff0000;
+    box-shadow: 8px 8px 0px #0088ff;
 }
 .contenedor-momentos img {
     display: block;
@@ -199,9 +199,8 @@ img {
     }
 }
 
-.bungee-regular {
-  font-family: "Bungee", sans-serif;
+.rye-regular {
+  font-family: "Rye", serif;
   font-weight: 400;
   font-style: normal;
 }
-
